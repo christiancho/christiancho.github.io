@@ -10,12 +10,14 @@ header {
   margin-left: auto;
   margin-right: auto;
   margin: 0px;
-  padding: 20px;
+  padding: 10px;
   text-align: center;
+  vertical-align: middle;
 }
 
 nav {
   text-align: center;
+  vertical-align: middle;
   padding: 0px;
   margin: 0px;
 }
@@ -28,13 +30,12 @@ nav > ul, footer > ul {
 }
 
 li {
-  display: inline;
   padding: 10px;
   margin: 15px;
 }
 
 li > a {
-  display: inline-block;
+
   transition: 0.3s;
 }
 
@@ -118,7 +119,6 @@ footer {
   left: 0;
   padding: 10px;
   text-align: center;
-  display: none;
 }
 
 li > a {
@@ -129,4 +129,21 @@ li > a {
 
 li > a:hover{
   color: #ffffff;
+}
+
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
 }
