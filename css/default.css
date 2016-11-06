@@ -1,0 +1,114 @@
+body {
+  margin: 0px;
+}
+
+header {
+  display: block;
+  background: #a1e055;
+  border: 0px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 0px;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+nav > ul {
+  display: inline;
+  list-style: none;
+}
+
+nav > li {
+  display: inline;
+}
+
+nav > a {
+  display: inline-block;
+  padding: 10px;
+}
+
+h1 {
+  font-family: 'Arimo', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  color: #fdfdfd;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+nav {
+  display: block;
+  height: 50px;
+  width: 100%;
+  background: #fafafa;
+  margin: 0px;
+  padding: 20px;
+}
+
+h2 {
+  font-family: 'Arimo', sans-serif;
+  font-weight: 400;
+  font-size: 1.5em;
+  color: #cccccc;
+  text-transform: capitalize;;
+}
+
+main {
+  width: 100%;
+}
+
+main > section {
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
+  vertical-align: middle;
+  padding: 15px;
+}
+
+main > p {
+
+}
+
+button {
+  -webkit-border-radius: 5;
+  -moz-border-radius: 5;
+  border-radius: 5px;
+  font-family: 'Arimo', sans-serif;;
+  color: #ffffff;
+  font-size: 1.25em;
+  letter-spacing: 1px;
+  background: #a1e055;
+  padding: 15px;
+  text-decoration: none;
+  border: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  text-transform: lowercase;
+}
+
+button:hover {
+  background: #cde6af;
+  text-decoration: none;
+}
+
+footer {
+  background: #eaeaea;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+footer > ul {
+  display: inline;
+  list-style: none;
+}
