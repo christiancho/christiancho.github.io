@@ -20,18 +20,22 @@ nav {
   margin: 0px;
 }
 
-nav > ul {
+nav > ul, footer > ul {
   display: inline;
   list-style: none;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 700;
 }
 
-nav > li {
+li {
   display: inline;
+  padding: 10px;
+  margin: 15px;
 }
 
-nav > a {
+li > a {
   display: inline-block;
-  padding: 10px;
+  transition: 0.3s;
 }
 
 h1 {
@@ -60,20 +64,27 @@ h2 {
   text-transform: capitalize;;
 }
 
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  color: #555555;
+  letter-spacing: 0.1em;
+  word-spacing: 5px;
+  line-height: 2em;
+}
+
 main {
   width: 100%;
 }
 
-main > section {
+#intro {
   margin-left: auto;
   margin-right: auto;
+  background-color: #eeeeee;
+  padding: 20px;
+  margin: 0px;
   width: 600px;
-  vertical-align: middle;
-  padding: 15px;
-}
-
-main > p {
-
 }
 
 button {
@@ -91,6 +102,7 @@ button {
   margin-left: auto;
   margin-right: auto;
   text-transform: lowercase;
+  outline: none;
 }
 
 button:hover {
@@ -106,9 +118,15 @@ footer {
   left: 0;
   padding: 10px;
   text-align: center;
+  display: none;
 }
 
-footer > ul {
-  display: inline;
-  list-style: none;
+li > a {
+  text-decoration: none;
+  letter-spacing: 2px;
+  color: #444444;
+}
+
+li > a:hover{
+  color: #ffffff;
 }
