@@ -1,0 +1,18 @@
+main > h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 3em;
+  text-transform: uppercase;
+}
+
+main > p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  text-transform: lowercase;
+}
+
+main {
+  vertical-align: middle;
+  padding: 50px;
+}
