@@ -1,18 +1,59 @@
+body {
+  font-family: sans-serif;
+  background-color: #E9E9E9;
+  color: #333;
+}
+
 main > h1 {
-  font-family: 'Work Sans', sans-serif;
+  font-family: sans-serif;
   font-weight: 300;
   font-size: 3em;
   text-transform: uppercase;
+  margin: 20px;
 }
 
 main > p {
-  font-family: 'Work Sans', sans-serif;
+  font-family: sans-serif;
   font-weight: 300;
   font-size: 2em;
-  text-transform: lowercase;
+  margin: 20px;
 }
 
 main {
   vertical-align: middle;
   padding: 50px;
+}
+
+ul.game-list {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+ul.game-list > li {
+  margin: 20px;
+  padding: 20px 40px;
+  background-color: #DDD;
+  border-radius: 4px;
+  transition: 0.5s;
+  width: 33%;
+}
+
+ul.game-list > li:hover {
+  background-color: #333;
+  width: 90%;
+}
+
+ul.game-list > li > a {
+  text-decoration: none;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #333;
+  transition: 0.5s;
+  font-size: 2em;
+}
+
+ul.game-list > li:hover > a {
+  color: #DDD;
 }
