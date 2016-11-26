@@ -5,11 +5,12 @@ body {
 }
 
 main > h1 {
+  clear: both;
   font-family: sans-serif;
   font-weight: 300;
   font-size: 3em;
-  text-transform: uppercase;
   margin: 20px;
+  text-transform: uppercase;
 }
 
 main > p {
@@ -24,36 +25,119 @@ main {
   padding: 50px;
 }
 
-ul.game-list {
-  list-style-type: none;
+section.project-list {
   padding: 0px;
   margin: 0px;
   width: 100%;
+  display: flex;
+  height: 200px;
+  justify-content: space-around;
 }
 
-ul.game-list > li {
-  margin: 20px;
-  padding: 20px 40px;
-  background-color: #DDD;
+section.project-list > a {
+  background-color: #AAA;
   border-radius: 4px;
-  transition: 0.5s;
-  width: 33%;
-}
-
-ul.game-list > li:hover {
-  background-color: #333;
-  width: 90%;
-}
-
-ul.game-list > li > a {
-  text-decoration: none;
-  font-weight: 700;
-  text-transform: uppercase;
+  box-sizing: border-box;
   color: #333;
+  display: flex;
+  flex: 20%;
+  font-size: 36px;
+  font-weight: 700;
+  height: 100%;
+  margin: 10px 20px;
+  padding: 20px 30px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
   transition: 0.5s;
-  font-size: 2em;
+  transition: 0.5s;
+  vertical-align: center;
 }
 
-ul.game-list > li:hover > a {
-  color: #DDD;
+section.project-list > a:hover {
+  background-color: #333;
+  color: #AAA;
+  flex: 50%;
+}
+
+.project-info {
+  color: #111;
+  display: none;
+  font-size: 18px;
+  font-weight: 400px;
+  list-style: none;
+  margin: 20px 0px;
+  padding: 0px;
+  text-align: left;
+  text-transform: none;
+}
+
+section.project-list > a:hover > ul {
+  display: block;
+  position: absolute;
+  top: 200px;
+}
+
+.contact-info {
+  list-style: none;
+  display: flex;
+  padding: 0px;
+}
+
+.contact-info > li {
+  margin: 20px 0px;
+}
+
+.contact-info > li > a {
+  background-color: #AAA;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  vertical-align: text-bottom;
+  padding: 20px 30px;
+  margin: 30px 20px;
+  width: 100px;
+  transition: 0.5s;
+}
+
+.contact-info > li > a:hover {
+  padding: 20px 200px;
+}
+
+@media (max-width: 1280px), handheld{
+
+  main {
+    padding: 40px 20px;
+  }
+
+  section.project-list {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+
+  section.project-list > a, section.project-list > a:hover {
+    flex: 100%;
+    font-size: 48px;
+    min-width: 300px;
+    width: auto;
+  }
+
+  .project-info, section.project-list > a:hover > ul {
+    text-align: left;
+    display: block;
+    position: absolute;
+    top: auto;
+    float: right;
+    font-size: 20px;
+    margin: 10px 0px;
+  }
+
+  section.project-list > a:hover > ul {
+    color: #DDD;
+  }
+
 }
