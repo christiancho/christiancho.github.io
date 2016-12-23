@@ -1845,6 +1845,7 @@ header .header-logo a {
 .portfolio-list > li {
 	clear: both;
 	overflow: hidden;
+	margin: 3rem 0;
 	padding: 0;
 	position: relative;
 }
