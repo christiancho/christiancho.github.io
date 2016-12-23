@@ -1,70 +1,407 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="description" content="Portfolio and information about NYC web developer Christian Cho">
-    <link rel="stylesheet" href="style/default.css" type="text/css">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <title>Christian Cho - NYC web developer</title>
-  </head>
-  <body>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
 
-    <header>
-    </header>
+  <!--- basic page needs ================================================== -->
+  <meta charset="utf-8">
+  <title>Christian Cho - NYC Web Developer</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <nav>
-    </nav>
+  <!-- mobile specific metas ================================================== -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <main>
+  <!-- CSS ================================================== -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
 
-      <h1>Christian Cho</h1>
+  <!-- script ================================================== -->
+  <script src="js/modernizr.js"></script>
+  <script src="js/pace.min.js"></script>
 
-      <ul class="contact-info">
+  <!-- favicons ================================================== -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+<body id="top">
+
+  <!-- header ================================================== -->
+  <header>
+    <div class="header-logo">
+      <a href="index.html">Christian Cho - NYC Web Developer</a>
+    </div>
+
+    <a id="header-menu-trigger" href="#0">
+     	<span class="header-menu-text">Menu</span>
+      <span class="header-menu-icon"></span>
+    </a>
+
+    <nav id="menu-nav-wrap">
+    	<a href="#0" class="close-button" title="close"><span>Close</span></a>
+     	<h3>Hey, there.</h3>
+    	<ul class="nav-list">
+    		<li class="current"><a class="smoothscroll" href="#home" title="">Home</a></li>
+    		<li><a class="smoothscroll" href="#about" title="">About</a></li>
+        <li><a class="smoothscroll" href="#portfolio" title="">Porfolio</a></li>
+    		<li><a class="smoothscroll" href="#skills" title="">Skills</a></li>
+    		<li><a class="smoothscroll" href="#credentials" title="">Experience</a></li>
+    		<li><a class="smoothscroll" href="#contact" title="">Contact</a></li>
+    	</ul>
+      <ul class="header-social-list">
         <li>
-          <a href="mailto:chochr@gmail.com">email me</a>
+          <a href="https://linkedin.com/in/christiancho"><i class="fa fa-linkedin"></i></a>
         </li>
         <li>
-          <a href="tel:6174075358">call me</a>
+          <a href="https://github.com/christiancho/"><i class="fa fa-github"></i></a>
+        </li>
+        <li>
+          <a href="https://angel.co/christian-cho"><i class="fa fa-angellist"></i></a>
+        </li>
+        <li>
+          <a href="http://twitter.com/christiancho"><i class="fa fa-twitter"></i></a>
+        </li>
+        <li>
+          <a href="https://instagram.com/christiancho"><i class="fa fa-instagram"></i></a>
         </li>
       </ul>
+    </nav>  <!-- end #menu-nav-wrap -->
+  </header> <!-- end header -->
 
-      <p>Hi. I'm a NYC-based web-developer in training at App Academy. I'm still in school, so check back soon to see some cool projects. Here are some things I made during the course of the program.</p>
+  <!-- home ================================================== -->
+  <section id="home">
 
-      <section class="project-list">
+  <div class="overlay"></div><div class="gradient-overlay"></div>
 
-        <a href="https://christiancho.github.io/games/tic-tac-toe">
-          <span>Tic-Tac-Toe</span>
+  <div class="home-content-table">
 
-        </a>
+   <div class="home-content-tablecell">
+   	<div class="row">
+   		<div class="col-twelve">
+    			<div class="home-bottom-text">
 
-        <a href="https://christiancho.github.io/games/snake">
-          <span>Snake</span>
+    				<h3 class="animate-intro">Hello, World.</h3>
+  	  			<h1 class="animate-intro">
+  				I'm Christian, <br>
+  				a web developer &amp; software engineer <br>
+  				based in New York.
+  	  			</h1>
 
-        </a>
+  				<ul class="home-section-links">
+  					<li class="animate-intro">More <a href="#about" class="smoothscroll">About Me</a></li>
+  					<li class="animate-intro">View <a href="#portfolio" class="smoothscroll">My Works</a></li>
+  					<li class="animate-intro">Contact <a href="#contact" class="smoothscroll">By Email</a></li>
+  				</ul>
 
-        <a href="https://christiancho.github.io/games/hanoi">
-          <span>Towers of Hanoi</span>
+    			</div> <!-- end home-bottom-text -->
+     	</div> <!-- end col-twelve -->
+   	</div> <!-- end row -->
+   </div> <!-- end home-content-tablecell -->
+  </div> <!-- end home-content-table -->
 
-        </a>
+  <a href="#about" class="scroll-icon smoothscroll">
+   <span class="icon-DownArrow"></span>
+  </a>
 
-        <a href="https://christiancho.github.io/W6D5-intro-to-react">
-          <span>Widgets</span>
+  </section> <!-- end home -->
 
-        </a>
+  <!-- about ================================================== -->
+  <section id="about">
+  <div class="about-profile-bg"></div>
+  <div class="about-wrap">
+    <div class="about-headshot-wrapper">
+      <div class="about-headshot"></div>
+    </div>
+  	<div class="about-profile">
+  		<div class="about-profile-bg"></div>
+  	<div class="intro">
+  		<h3 class="animate-this">About</h3>
+  			<h1 class="animate-this">More About Me.</h1>
+  			<p class="lead animate-this">Never to shy away from a technical challenge, I'm all about solving problems using a wide variety of technologies to solve problems.</p>
+  	</div>
+  		<p class="animate-this">At my core, I'm a programmer.</p>
+  		<p>
+  			<a href="mailto:chochr@gmail.com" class="button animate-this">Email Me</a>
+  			<a href="#" class="button button-primary animate-this">Download Resume</a>
+  		</p>
+  	</div> <!-- end about-profile  -->
+  </div> <!-- end about-wrap  -->
+  </section> <!-- end about -->
 
-        <a href="https://christiancho.github.io/minesweeper">
-          <span>Minesweeper</span>
+  <!-- portfolio ================================================== -->
+  <section id="portfolio">
 
-        </a>
-      </section>
+    <div class="row narrow section-intro">
+      <div class="col-twelve">
+        <h3 class="animate-this">Portfolio</h3>
+        <h1 class="animate-this">See some of my projects.</h1>
+        <p class="lead animate-this">Full stack music app? Check. JavaScript game using Newton's laws of gravitational attraction? Got it. A custom MVC framework? You bet.</p>
+      </div>
+    </div> <!-- end row section-intro -->
+    <div class="row portfolio-content">
+      <ul class="portfolio-list">
+        <li>
+          <div class="portfolio-image portfolio-left interlude-image"></div>
+          <div class="portfolio-description portfolio-right">
+            <h2 class="animate-this">Interlude</h2>
+            <h4 class="animate-this">Music streaming app inspired by Spotify</h4>
+            <ul class="portfolio-feature-list">
+              <li>Leverages context menus for seamless user experience with playlist CRUD</li>
+              <li>Extracts metadata on first save to database to reduce loading times</li>
+              <li>Maintains DRY code with modular component design</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="portfolio-image portfolio-left movico-image"></div>
+          <div class="portfolio-description portfolio-right">
+            <h2 class="animate-this">Movico</h2>
+            <h4 class="animate-this">Lightweight MVC framework</h4>
+            <ul class="portfolio-feature-list">
+              <li>Handles exceptions with extensible middleware</li>
+              <li>Includes cookie storage and CSRF protection</li>
+              <li>Allows for flash error handling</li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <div class="portfolio-image portfolio-left perihelion-image"></div>
+          <div class="portfolio-description portfolio-right">
+            <h2 class="animate-this">Perihelion</h2>
+            <h4 class="animate-this">JavaScript game featuring Newtonian laws</h4>
+            <ul class="portfolio-feature-list">
+              <li>Computes position of spaceship based on multiple force vectors</li>
+              <li>Leverages EaselJS for rendering of sprites and shapes</li>
+              <li>Features original pixel art</li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div> <!-- end portfolio-content -->
+  </section>  <!-- end portfolio -->
 
-    </main>
+  <!-- about ================================================== -->
+  <section id="skills">
+    <div class="overlay"></div>
+    <div class="gradient-overlay"></div>
+    <div class="row wide">
+      <div class="col-skills">
+        <div class="section-intro">
+          <h3 class="animate-this">Skillset</h3>
+          <h1 class="animate-this">I've Got Some Skills.</h1>
+          <p class="animate-this">If there's a technology out there to make lively, beautiful web applications, I want to know about it. Here's what I already know.</p>
+        </div>
+        <ul class="skill-icons">
+          <li class="animate-this" data-animate="fadeInRight">
+            <strong>Ruby on Rails</strong>
+          </li>
+          <li class="animate-this" data-animate="fadeInRight">
+            <strong>JavaScript</strong>
+          </li>
+          <li class="animate-this" data-animate="fadeInRight">
+            <strong>HTML5</strong>
+          </li>
+          <li class="animate-this" data-animate="fadeInRight">
+            <strong>CSS3</strong>
+          </li>
+          <li class="animate-this" data-animate="fadeInRight">
+            <strong>jQuery</strong>
+          </li>
 
-    <footer>
+          <li class="animate-this" data-animate="fadeInRight">
+            <strong>Wordpress</strong>
+          </li>
+          <li class="animate-this" data-animate="fadeInRight">
+            <strong>React.js + Redux</strong>
+          </li>
+        </ul>
+      </div> <!-- end col-six -->
+    </div> <!-- end row wide -->
 
-    </footer>
+  </section> <!-- end skills -->
 
-  </body>
+  <!-- credentials ================================================== -->
+  <section id="credentials">
+
+  <div class="row narrow section-intro">
+  	<div class="col-twelve">
+  		<h3 class="animate-this">Career and Education</h3>
+  		<h1 class="animate-this">Just a few more credentials.</h1>
+
+  		<p class="lead">Here are some highlights from my educational and professional backgrounds.</p>
+  	</div>
+  </div> <!-- end section-intro -->
+
+  <div class="row wide credentials-content">
+
+  <div class="col-six tab-full left">
+
+  	<h2 class="animate-this">Experience</h2>
+
+  		<div class="timeline-wrap">
+
+  			<div class="timeline-block animate-this">
+  				<div class="timeline-ico">
+  					<i class="fa fa-briefcase"></i>
+  				</div>
+  				<div class="timeline-header">
+  					<p class="timeframe">January 2014 - July 2016</p>
+  					<h3>Rugged CrossFit &amp; CrossFit Boston</h3>
+  					<h4>Coach &amp; Operations</h4>
+  				</div>
+  			</div> <!-- end timeline-block -->
+
+  			<div class="timeline-block animate-this">
+  				<div class="timeline-ico">
+  					<i class="fa fa-briefcase"></i>
+  				</div>
+  				<div class="timeline-header">
+  					<p class="timeframe">July 2012 - February 2015</p>
+  					<h3>Boston University</h3>
+  					<h4>Assistant Director</h4>
+  				</div>
+  			</div> <!-- end timeline-block -->
+
+  			<div class="timeline-block animate-this">
+  				<div class="timeline-ico">
+  					<i class="fa fa-briefcase"></i>
+  				</div>
+  				<div class="timeline-header">
+  					<p class="timeframe">August 2009 - June 2012</p>
+  					<h3>Mount Ida College</h3>
+  					<h4>Area Coordinator</h4>
+  				</div>
+  			</div> <!-- end timeline-block -->
+
+  		</div> <!-- end timeline-wrap -->
+
+  	</div> <!-- end col-six -->
+
+  	<div class="col-six tab-full right">
+
+  		<h2 class="animate-this">Education</h2>
+
+  	<div class="timeline-wrap">
+
+  			<div class="timeline-block animate-this">
+  				<div class="timeline-ico">
+  					<i class="fa fa-graduation-cap"></i>
+  				</div>
+  				<div class="timeline-header">
+  					<p class="timeframe">October 2016 - January 2017</p>
+  					<h3>App Academy</h3>
+  					<h4>Web Development Academy</h4>
+  				</div>
+  			</div> <!-- end timeline-block -->
+
+  			<div class="timeline-block animate-this">
+  				<div class="timeline-ico">
+  					<i class="fa fa-graduation-cap"></i>
+  				</div>
+  				<div class="timeline-header">
+  					<p class="timeframe">September 2007 - May 2009</p>
+  					<h3>Boston College</h3>
+  					<h4>Masters Degree</h4>
+  				</div>
+  			</div> <!-- end timeline-block -->
+
+  			<div class="timeline-block animate-this">
+  				<div class="timeline-ico">
+  					<i class="fa fa-graduation-cap"></i>
+  				</div>
+  				<div class="timeline-header">
+  					<p class="timeframe">September 2003 - May 2007</p>
+  					<h3>Boston College</h3>
+  					<h4>Bachelors Degree</h4>
+  				</div>
+  				<!-- <div class="timeline-content">
+  					<p>Lorem ipsum Occaecat do esse ex et dolor culpa nisi ex in magna consectetur nisi cupidatat laboris esse eiusmod deserunt aute do quis velit esse sed Ut proident cupidatat nulla esse cillum laborum occaecat nostrud sit dolor incididunt amet est occaecat nisi incididunt.</p>
+  				</div> -->
+
+  			</div> <!-- end timeline-block -->
+
+  		</div> <!-- end timeline-wrap -->
+
+  	</div> <!-- end col-six -->
+
+  </div> <!-- end row wide -->
+
+  </section> <!-- end credentials -->
+
+  <!-- contact ================================================== -->
+  <section id="contact">
+    <div class="overlay"></div>
+    <div class="row narrow section-intro">
+      <div class="col-twelve">
+        <h3 class="animate-this">Contact</h3>
+        <h1 class="animate-this">My ears are open.</h1>
+        <p class="lead animate-this">Whether you want to talk about a cool project you're working, or just to chat over coffee about web development, I'm game.</p>
+      </div>
+    </div> <!-- end section-intro -->
+    <div class="row contact-info">
+      <div class="col-four tab-full">
+        <h5 class="animate-this">Find me at</h5>
+        <p class="animate-this">
+        159 W 25th St. Floor 2<br>
+        New York, NY 10001
+        </p>
+      </div> <!-- end col-four -->
+      <div class="col-four tab-full collapse">
+        <h5 class="animate-this">Email me at</h5>
+        <p class="animate-this">
+        chochr@gmail.com<br>
+        </p>
+      </div> <!-- end col-four -->
+      <div class="col-four tab-full">
+        <h5 class="animate-this">Call me at</h5>
+        <p class="animate-this">
+        617-407-5358<br>
+        </p>
+      </div> <!-- end col-four -->
+    </div> <!-- end row contact-info -->
+  </section> <!-- end contact -->
+
+  <!-- footer ================================================== -->
+  <footer>
+   	<div class="row">
+
+   		<div class="col-twelve tab-full social">
+   			<ul class="footer-social">
+  	      <li><a href="https://linkedin.com/in/christiancho">LinkedIn</a></li>
+  	      <li><a href="https://github.com/christiancho/">GitHub</a></li>
+  	      <li><a href="https://angel.co/christian-cho">AngelList</a></li>
+  	      <li><a href="http://twitter.com/christiancho">Twitter</a></li>
+  	      <li><a href="https://instagram.com/christiancho">Instagram</a></li>
+  	   </ul>
+      </div>
+
+    	<div class="col-twelve tab-full">
+      	<div class="copyright">
+          	<span>© Copyright Christian Cho 2016.</span>
+        </div>
+      </div>
+
+    </div> <!-- end row -->
+
+    <div id="go-top">
+     <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-UpArrow"></i></a>
+  </div>
+  </footer>
+
+  <div id="preloader">
+  	<div id="loader"></div>
+  </div>
+
+  <!-- Java Script
+  ================================================== -->
+  <script src="js/jquery-2.1.3.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
 </html>
