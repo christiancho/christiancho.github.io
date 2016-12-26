@@ -1890,6 +1890,32 @@ header .header-logo a {
 	background-image: url(../images/portfolio/perihelion.jpg);
 }
 
+.skill-icons {
+	align-items: center;;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	list-style: none;
+}
+
+.skill-icons > li {
+	align-items: center;
+	color: #ddd;
+	display: flex;
+	flex: 0 0 auto;
+	flex-direction: column;
+	font-family: "montserrat-bold", sans-serif;
+	justify-content: center;
+	padding: 2rem;
+}
+
+.skills-logo {
+	height: 9rem;
+	opacity: 0.6;
+	padding: 1rem;
+	width: auto;
+}
+
 /* -------------------------------------------------------------------
  * responsive:
  * about
