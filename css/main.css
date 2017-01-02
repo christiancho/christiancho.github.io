@@ -2064,7 +2064,7 @@ header .header-logo a {
 	background-size: cover;
 	position: relative;
 	padding: 6rem 0 6rem;
-	color: rgba(255, 255, 255, 0.3);
+	color: rgba(255, 255, 255, 0.8);
 }
 
 #skills .overlay {
